@@ -24,8 +24,8 @@ wait for the terminal print "simulation platform ready..." .
 roslaunch sim_platform_pysdk start_computer_and_your_code.launch
 ```
 
-#* What you need is to replace the example code of sim_platform_pysdk with your code.*
+# * What you need is to replace the example code of sim_platform_pysdk with your code.*
 
-#* Welcome to discuss in the ISSUE zone. or send email to smartswarm@qq.com.*
+# * Welcome to discuss in the ISSUE zone. or send email to smartswarm@qq.com.*
 
 
