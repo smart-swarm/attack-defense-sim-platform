@@ -1,0 +1,42 @@
+
+Target_B['uavB1'] = [-18, 18, 10, 0]
+Target_B['uavB2'] = [-10, -8 10, 0]
+Target_B['uavB3'] = [-10,8, 10, 0]
+Target_B['uavB4'] = [-18,18, 10, 0]
+Target_B['uavB5'] = [-22.5,0, 10, 0]
+
+Target_B['uavB1'] = [-15, -10, 10, 0]
+Target_B['uavB2'] = [-10, -6.5, 10, 0]
+Target_B['uavB3'] = [-10,10, 10, 0]
+Target_B['uavB4'] = [-10, 27.5, 10, 0]
+Target_B['uavB5'] = [-22.5,5.5, 10, 0]
+
+Target_B['uavB1'] = [-15, -10, 10, 0]
+Target_B['uavB2'] = [-15, -6.5, 10, 0]
+Target_B['uavB3'] = [-15,12, 10, 0]
+Target_B['uavB4'] = [5, 27.5, 10, 0]
+Target_B['uavB5'] = [-15,7.5, 10, 0]
+
+Target_B['uavB1'] = [-15, -10, 10, 0]
+Target_B['uavB2'] = [-15, -6.5, 10, 0]
+Target_B['uavB3'] = [-15,12, 10, 0]
+Target_B['uavB4'] = [20, 27.5, 10, 0]
+Target_B['uavB5'] = [-15,7.5, 10, 0]
+
+Target_B['uavB1'] = [-25, 7.5, 10, 0]
+Target_B['uavB2'] = [-22.5, -5, 10, 0]
+Target_B['uavB3'] = [-25,7.5, 10, 0]
+Target_B['uavB4'] = [22.5,10, 10, 0]
+Target_B['uavB5'] = [-22.5,5, 10, 0]
+
+Target_B['uavB1'] = [-27, -5, 10, 0]
+Target_B['uavB2'] = [-22.5, -5, 10, 0]
+Target_B['uavB3'] = [-27,5, 10, 0]
+Target_B['uavB4'] = [25, 5, 10, 0]
+Target_B['uavB5'] = [-22.5,5, 10, 0]
+
+Target_B['uavB1'] = [-27, -5, 10, 0]
+Target_B['uavB2'] = [-22.5, -5, 10, 0]
+Target_B['uavB3'] = [-27,5, 10, 0]
+Target_B['uavB4'] = [22.5, 0, 10, 0]
+Target_B['uavB5'] = [-22.5,5, 10, 0]

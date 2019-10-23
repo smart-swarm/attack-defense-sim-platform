@@ -1,0 +1,2 @@
+judge_system_msgs:
+  ubuntu: [ros-kinetic-judge-system-msgs]
