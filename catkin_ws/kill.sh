@@ -14,7 +14,6 @@ list='roslaunch
       hector_quad_simple_ctrl/hector_quad_simple_ctrl_pose_node
       judge_system
 		spawn_model
-		catkin_ws
 		kinetic'
 
 for i in $list
@@ -22,4 +21,6 @@ for i in $list
         ps -ef | grep $i | awk '{print $2}' | xargs -i kill -9 {}
     done
 
-#./python_kill.sh
+ps -ef | grep -v sim_platform_pysdk | grep catkin_ws | awk '{print $2}' | xargs -i kill -9 {}
+
+sh python_kill.sh
