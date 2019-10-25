@@ -122,22 +122,11 @@ class Example(PlayerInterface):
         self.attack_cmd_send('carA1', target1)
    
     def process(self):
-        # name = self.get_self_basestation_name()
-        # self.attack_cmd_send(name, [1,1,1])
-        # import rospy
-        # rospy.logerr("Attention here !")
         if self.is_all_arrived():
             self.deal_attack()
         else:
             self.deal_move()
-        self.move_cmd_send()
         self.refresh_all_targets()
 
 # Coding stop here.
 #######################################################################
-
-
-if __name__ == "__main__":
-    
-    example = Example()
-    example.run()
