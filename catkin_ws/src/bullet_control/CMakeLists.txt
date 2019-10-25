@@ -26,7 +26,6 @@ target_link_libraries(bullet_plugin ${GAZEBO_LIBRARIES} ${roscpp_LIBRARIES})
 
 
 catkin_package(
-  INCLUDE_DIRS include
   LIBRARIES bullet_plugin
   CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs
 #  DEPENDS system_lib
