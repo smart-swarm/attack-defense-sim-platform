@@ -16,9 +16,11 @@ fi
 echo "loading env parameters..."
 echo ROS MASTER IP is : $HOST_IP
 export ROS_HOSTNAME=$HOST_IP
-cd ~/attack-defense-sim-platform/catkin_ws/
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:devel/lib
-source devel/setup.bash
+cd ./catkin_ws/
+catkin_make
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:$(pwd)/devel/lib
+source $(pwd)/devel/setup.bash
+echo "$(pwd)/devel/setup.bash" >> ~/.bashrc
 echo "loading gazebo world..."
 roslaunch innok_heros_gazebo load_world_60x40.launch &
 sleep 10
