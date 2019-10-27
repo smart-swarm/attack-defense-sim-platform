@@ -126,6 +126,7 @@ class Example(PlayerInterface):
             self.deal_attack()
         else:
             self.deal_move()
+        self.move_cmd_send()
         self.refresh_all_targets()
 
 # Coding stop here.

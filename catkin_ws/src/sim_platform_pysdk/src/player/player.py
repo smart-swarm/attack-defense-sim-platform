@@ -5,4 +5,8 @@ from example import Example
 if __name__ == "__main__":
     
     example = Example()
-    example.run()
+    example.set_rate(50)
+
+    while not example.is_shutdown():
+        example.process()
+        example.sleep()
