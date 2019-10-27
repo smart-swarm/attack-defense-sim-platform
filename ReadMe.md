@@ -1,6 +1,6 @@
 # 1. clone this reposity
 ```
-https://github.com/smart-swarm/attack-defense-sim-platform.git
+git clone https://github.com/smart-swarm/attack-defense-sim-platform.git
 cd ./attack-defense-sim-platform
 ```
 # 2. install the judge system (very important!)
