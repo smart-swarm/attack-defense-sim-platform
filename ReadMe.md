@@ -6,13 +6,15 @@ cd ./attack-defense-sim-platform
 # 2. install the judge system (very important!)
 ```
 cd ./install_judge_system
-sh install.sh # or ./install.sh
+chmod +x install.sh
+./install.sh # or sh install.sh
 cd -
 ```
 # 3. compile all the packages
 ```
 cd ./catkin_ws
 catkin_make
+source devel/setup.bash
 ```
 # 4. running the simulation platform
 ```
