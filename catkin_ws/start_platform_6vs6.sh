@@ -1,7 +1,9 @@
 #!/bin/bash
 sh kill.sh 2>&1
 sleep 3
-rm -rf ~/.ros/log/*
+cd ~/.ros/log
+rm -rf *
+cd -
 ip_num=$(ifconfig | grep "inet addr" | wc -l)
 if [ ${ip_num} -eq "2" ];then
     HOST_IP=$(ifconfig | grep "inet addr" | grep -v "127.0.0.1" | awk '{ print $2}' | awk -F: '{print $2}')
@@ -14,9 +16,9 @@ fi
 echo "loading env parameters..."
 echo ROS MASTER IP is : $HOST_IP
 export ROS_HOSTNAME=$HOST_IP
-cd ~/catkin_ws/
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:~/catkin_ws/devel/lib
-source ~/catkin_ws/devel/setup.bash
+cd ~/attack-defense-sim-platform/catkin_ws/
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:devel/lib
+source devel/setup.bash
 echo "loading gazebo world..."
 roslaunch innok_heros_gazebo load_world_60x40.launch &
 sleep 10
