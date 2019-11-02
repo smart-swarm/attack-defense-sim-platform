@@ -29,7 +29,7 @@ source devel/setup.bash
 ```
 bash start_platform_6vs6.sh
 ```
-直到屏幕输出"simulation platform ready..." .
+直到屏幕输出"simulation platform ready..." ，方可进行下一步.
 ## 3.2 新开一终端, 运行时样例代码
 ```
 roslaunch sim_platform_pysdk start_computer_and_your_code.launch
@@ -37,7 +37,7 @@ roslaunch sim_platform_pysdk start_computer_and_your_code.launch
 
 # 4. 问题咨询
 
-在安装过程中如遇到其他问题，欢迎咨询技术人员，咨询时请备注“赛事技术咨询”。
+在安装过程中如遇到其他问题，欢迎咨询技术人员，咨询时请备注“空地协同对抗赛-技术咨询”。
 
 - 	咨询邮箱：\url{smartswarm@qq.com}
 -	技术交流QQ群：\url{278935440}
