@@ -39,7 +39,7 @@ roslaunch sim_platform_pysdk start_computer_and_your_code.launch
 
 在安装过程中如遇到其他问题，欢迎咨询技术人员，咨询时请备注“空地协同对抗赛-技术咨询”。
 
-- 	咨询邮箱：\url{smartswarm@qq.com}
--	技术交流QQ群：\url{278935440}
+- 	咨询邮箱：smartswarm@qq.com
+-	技术交流QQ群：278935440
 
 
