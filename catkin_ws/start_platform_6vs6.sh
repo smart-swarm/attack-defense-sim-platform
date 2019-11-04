@@ -30,7 +30,7 @@ echo "loading uav and car..."
 roslaunch innok_heros_gazebo load_cars6_uavs6.launch &
 sleep 5
 echo "launching judge system..."
-roslaunch judge_system judge_system_car6_uav6.launch &
+roslaunch judge_system judge_system_car6_uav6.launch "path:=$(pwd)" &
 sleep 5
 # A: uav1-3; B: uav1-3
 sleep 30
