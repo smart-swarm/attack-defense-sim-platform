@@ -3,6 +3,10 @@
 # 1. 配置环境
 在 doc文件夹中 3_methods_to_configure_environment 文件夹中选取任意一种方式进行环境配置。
 
+doc/主办方提供的SDK的接口.pdf  
+doc/直接安装系统镜像手册.pdf
+doc/分布配置运行环境手册.pdf
+
 # 2. 更新比赛平台程序
 
 ## 2.1 复制整个目录
