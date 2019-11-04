@@ -33,7 +33,8 @@ bash start_platform_6vs6.sh
 直到屏幕输出"simulation platform ready..." ，方可进行下一步.
 ## 3.2 新开一终端, 运行时样例代码
 ```
-roslaunch sim_platform_pysdk start_computer_and_your_code.launch
+chmod +x battle.sh
+./battle.sh
 ```
 
 # 4. 问题咨询
@@ -69,7 +70,8 @@ bash start_platform_6vs6.sh
 wait for the terminal print "simulation platform ready..." .
 # 5. open a new terminal, running the example code.
 ```
-roslaunch sim_platform_pysdk start_computer_and_your_code.launch
+chmod +x battle.sh
+./battle.sh
 ```
 
 # **What you need** *is to replace the example code of sim_platform_pysdk with your code.*
