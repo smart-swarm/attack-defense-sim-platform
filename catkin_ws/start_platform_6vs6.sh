@@ -39,7 +39,7 @@ roslaunch judge_system judge_system_car6_uav6.launch "path:=$(pwd)" &
 sleep 5
 # A: uav1-3; B: uav1-3
 sleep 30
-sh src/uav_arm.sh 3 3 /dev/null 2>&1 &
+sh scripts/uav_arm.sh 3 3 /dev/null 2>&1 &
 echo "all uav are ready to takeoff..."
 #sh load_bullet.sh 10 
 sleep 10
