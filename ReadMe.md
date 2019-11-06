@@ -3,7 +3,10 @@
 cd attack-defense-sim-platform
 git pull
 ```
-
+# *已经安装过裁判系统，需要更新裁判系统*
+```
+https://github.com/smart-swarm/update_judge_system
+```
 # 1. 配置环境
 在 doc文件夹中 3_methods_to_configure_environment 文件夹中选取任意一种方式进行环境配置。
 ```
@@ -43,11 +46,20 @@ bash start_platform_6vs6.sh
 直到屏幕输出"simulation platform ready..." ，方可进行下一步.
 ## 3.2 新开一终端, 运行时样例代码
 ```
-chmod +x battle.sh
+./battle.sh
+```
+# 4 一局比赛结束,可不用关闭界面，再次运行
+## 4.1 打开终端，输入
+```
+./reset.sh
+```
+等待小地图窗口打开即可。
+## 4.2 新开一终端, 运行时样例代码
+```
 ./battle.sh
 ```
 
-# 4. 问题咨询
+# 5. 问题咨询
 
 在安装过程中如遇到其他问题，欢迎咨询技术人员，咨询时请备注“空地协同对抗赛-技术咨询”。
 
@@ -80,7 +92,16 @@ bash start_platform_6vs6.sh
 wait for the terminal print "simulation platform ready..." .
 # 5. open a new terminal, running the example code.
 ```
-chmod +x battle.sh
+./battle.sh
+```
+# 6. keep gazebo running, and battle again.
+## 6.1 open a terminal
+```
+./reset.sh
+```
+waiting for the mini map show.。
+## 4.2 open a new terminal
+```
 ./battle.sh
 ```
 
