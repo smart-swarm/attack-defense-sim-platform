@@ -1,4 +1,9 @@
 #!/bin/bash
+chmod +x battle.sh
+chmod +x kill.sh
+chmod +x python_kill.sh
+chmod +x reset.sh
+chmod +x scripts/*.sh
 sh kill.sh 2>&1
 sleep 3
 cd ~/.ros/log
@@ -24,7 +29,7 @@ echo "$(pwd)/devel/setup.bash" >> ~/.bashrc
 echo "loading gazebo world..."
 roslaunch innok_heros_gazebo load_world_60x40.launch &
 sleep 10
-sh load_bullet.sh 3
+sh ./scripts/load_bullet.sh 3
 sleep 5
 echo "loading uav and car..."
 roslaunch innok_heros_gazebo load_cars6_uavs6.launch &
