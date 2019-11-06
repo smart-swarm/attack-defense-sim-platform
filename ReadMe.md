@@ -1,4 +1,8 @@
-
+# *已经下载过，需要更新代码*
+```
+cd attack-defense-sim-platform
+git pull
+```
 
 # 1. 配置环境
 在 doc文件夹中 3_methods_to_configure_environment 文件夹中选取任意一种方式进行环境配置。
