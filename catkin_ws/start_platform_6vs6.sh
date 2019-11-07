@@ -6,10 +6,7 @@ chmod +x reset.sh
 chmod +x scripts/*.sh
 sh kill.sh 2>&1
 sleep 3
-mkdir -p ~/.ros/log
-cd ~/.ros/log
-rm -rf *
-cd -
+rm -rf ~/.ros/log/*
 ip_num=$(ifconfig | grep "inet addr" | wc -l)
 if [ ${ip_num} -eq "2" ];then
     HOST_IP=$(ifconfig | grep "inet addr" | grep -v "127.0.0.1" | awk '{ print $2}' | awk -F: '{print $2}')
