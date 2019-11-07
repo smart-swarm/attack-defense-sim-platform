@@ -6,6 +6,7 @@ chmod +x reset.sh
 chmod +x scripts/*.sh
 sh kill.sh 2>&1
 sleep 3
+mkdir -p ~/.ros/log
 cd ~/.ros/log
 rm -rf *
 cd -
