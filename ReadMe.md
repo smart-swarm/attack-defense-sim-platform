@@ -59,7 +59,14 @@ bash start_platform_6vs6.sh
 ./battle.sh
 ```
 
-# 5. 问题咨询
+# 5. 使用GUI执行以上命令
+```
+chmod +x use_gui.sh
+./use_gui.sh
+```
+
+
+# 6. 问题咨询
 
 在安装过程中如遇到其他问题，欢迎咨询技术人员，咨询时请备注“空地协同对抗赛-技术咨询”。
 
