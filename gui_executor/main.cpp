@@ -41,7 +41,7 @@ int main(int argc, const char *argv[])
 		if (cvui::button(frame, 50, 40, "Start: bash start_platform_6vs6.sh")) {
 			// The button was clicked, so let's increment our counter.
 			std::stringstream fly_cmd;
-			fly_cmd << "bash start_platform_6vs6.sh"<< std::endl;
+			fly_cmd << "bash start_platform_6vs6.sh &"<< std::endl;
 			// ROS_INFO_STREAM(fly_cmd.str());
 			system(fly_cmd.str().c_str());
 			start = "waiting for ready...";
@@ -51,7 +51,7 @@ int main(int argc, const char *argv[])
 		if (cvui::button(frame, 50, 80, "Running: ./reset.sh")) {
 			// The button was clicked, so let's increment our counter.
 			std::stringstream fly_cmd;
-			fly_cmd << "./reset.sh"<< std::endl;
+			fly_cmd << "./reset.sh &"<< std::endl;
 			// ROS_INFO_STREAM(fly_cmd.str());
 			system(fly_cmd.str().c_str());
 			reset = "Reset all environment... ";
@@ -61,7 +61,7 @@ int main(int argc, const char *argv[])
 		if (cvui::button(frame, 50, 120, "Running: ./battle.sh")) {
 			// The button was clicked, so let's increment our counter.
 			std::stringstream fly_cmd;
-			fly_cmd << "./battle.sh"<< std::endl;
+			fly_cmd << "./battle.sh &"<< std::endl;
 			// ROS_INFO_STREAM(fly_cmd.str());
 			system(fly_cmd.str().c_str());
 			run = "click to run...";
@@ -71,7 +71,7 @@ int main(int argc, const char *argv[])
 		if (cvui::button(frame, 50, 160, "Running: ./kill.sh")) {
 			// The button was clicked, so let's increment our counter.
 			std::stringstream fly_cmd;
-			fly_cmd << "./kill.sh"<< std::endl;
+			fly_cmd << "./kill.sh &"<< std::endl;
 			// ROS_INFO_STREAM(fly_cmd.str());
 			system(fly_cmd.str().c_str());
 			kill = "killing all process... ";
